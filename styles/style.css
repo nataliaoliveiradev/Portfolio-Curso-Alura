@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
 
+:root {
+    --cor-primaria: #000000;
+    --cor-secundaria: #F6F6F6; 
+    --cor-terciaria: #22D4FD;
+    }
+
 *{
     margin: 0;
     padding: 0;
@@ -7,8 +13,8 @@
 
 body{
     box-sizing: border-box;
-    background-color: #000000;
-    color: #F6F6F6;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
 }
 
 .cabecalho {
@@ -24,7 +30,7 @@ body{
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
     font-weight: 600px;
-    color: #22D4FD;
+    color: var(--cor-terciaria);
     text-decoration: none;
 }
 
@@ -47,7 +53,7 @@ body{
 }
 
 .titulo-destaque{
-    color: #22D4FD;
+    color: var(--cor-terciaria);
 }
 
 .apresentacao__conteudo__texto{
@@ -75,13 +81,13 @@ body{
     gap: 16px;
     width: 378px;
     text-align: center;
-    border: 2px solid #22D4FD;
+    border: 2px solid var(--cor-terciaria);
     border-radius: 8px;
     font-size: 24px;
     font-weight: 600;
     padding: 21.5px 0;
     text-decoration: none;
-    color: #f6f6f6;
+    color: var(--cor-secundaria);
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -90,7 +96,7 @@ body{
 }
 
 .rodape{
-   background-color: #22D4FD;
+   background-color: var(--cor-terciaria);
    padding: 24px;
    text-align: center; 
    font-family: 'Montserrat', sans-serif;
